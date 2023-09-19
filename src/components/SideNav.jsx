@@ -6,7 +6,6 @@ import {
   faX,
   faUserTie,
   faListCheck,
-  faFile,
   faPaperPlane,
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
@@ -71,7 +70,10 @@ const SideNav = () => {
           </a>
         </div>
       ) : null}
-      <div id="large-nav" className="md:block hidden fixed top-[25%] z-10 ">
+      <div
+        id="large-nav"
+        className="md:block hidden fixed top-[25%] z-10 left-[1%]"
+      >
         <div className="flex flex-col">
           <a
             href="#main"
