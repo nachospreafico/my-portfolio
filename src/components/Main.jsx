@@ -44,26 +44,33 @@ const Main = () => {
             id="social-icons-container"
             className="flex justify-between pt-4 max-w-[200px] w-full"
           >
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              size="xl"
-              className="cursor-pointer hover:text-blue-600 duration-300 text-[#292929]"
-            />
-            <FontAwesomeIcon
-              icon={faGithub}
-              size="xl"
-              className="cursor-pointer hover:text-gray-600 duration-300 text-[#292929]"
-            />
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              size="xl"
-              className="cursor-pointer hover:text-white duration-300 text-[#292929]"
-            />
-            <FontAwesomeIcon
-              icon={faCode}
-              size="xl"
-              className="cursor-pointer hover:text-red-400 duration-300 text-[#292929]"
-            />
+            <a
+              href="https://www.linkedin.com/in/ignacio-spreafico"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                size="xl"
+                className="cursor-pointer hover:text-blue-600 duration-300 text-[#292929]"
+              />
+            </a>
+            <a href="https://www.github.com/nachospreafico">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="xl"
+                className="cursor-pointer hover:text-gray-600 duration-300 text-[#292929]"
+              />
+            </a>
+            <a
+              href="https://www.frontendmentor.io/profile/nachospreafico"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faCode}
+                size="xl"
+                className="cursor-pointer hover:text-red-400 duration-300 text-[#292929]"
+              />
+            </a>
           </div>
         </div>
       </div>

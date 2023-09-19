@@ -8,6 +8,7 @@ import {
   faListCheck,
   faFile,
   faPaperPlane,
+  faGear,
 } from "@fortawesome/free-solid-svg-icons";
 
 const SideNav = () => {
@@ -38,11 +39,11 @@ const SideNav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#work"
+            href="#skills"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <FontAwesomeIcon icon={faUserTie} />
-            <span className="pl-4">Work</span>
+            <FontAwesomeIcon icon={faGear} />
+            <span className="pl-4">Skills</span>
           </a>
           <a
             onClick={handleNav}
@@ -51,6 +52,14 @@ const SideNav = () => {
           >
             <FontAwesomeIcon icon={faListCheck} />
             <span className="pl-4">Projects</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#work"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <FontAwesomeIcon icon={faUserTie} />
+            <span className="pl-4">Work</span>
           </a>
           <a
             onClick={handleNav}
@@ -71,16 +80,22 @@ const SideNav = () => {
             <FontAwesomeIcon icon={faHome} />
           </a>
           <a
-            href="#work"
+            href="#skills"
             className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <FontAwesomeIcon icon={faUserTie} />
+            <FontAwesomeIcon icon={faGear} />
           </a>
           <a
             href="#projects"
             className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FontAwesomeIcon icon={faListCheck} />
+          </a>
+          <a
+            href="#work"
+            className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <FontAwesomeIcon icon={faUserTie} />
           </a>
           <a
             href="#contact"
