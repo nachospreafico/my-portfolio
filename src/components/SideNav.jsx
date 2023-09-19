@@ -77,33 +77,38 @@ const SideNav = () => {
         <div className="flex flex-col">
           <a
             href="#main"
-            className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="flex flex-col justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FontAwesomeIcon icon={faHome} />
+            <span className="text-center text-xs">Home</span>
           </a>
           <a
             href="#skills"
-            className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="flex flex-col justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FontAwesomeIcon icon={faGear} />
+            <span className="text-center text-xs">Skills</span>
           </a>
           <a
             href="#projects"
-            className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="flex flex-col justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FontAwesomeIcon icon={faListCheck} />
+            <span className="text-center text-xs">Projects</span>
           </a>
           <a
             href="#work"
-            className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="flex flex-col justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FontAwesomeIcon icon={faUserTie} />
+            <span className="text-center text-xs">Work</span>
           </a>
           <a
             href="#contact"
-            className="flex justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="flex flex-col justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FontAwesomeIcon icon={faPaperPlane} />
+            <span className="text-center text-xs">Contact</span>
           </a>
         </div>
       </div>
