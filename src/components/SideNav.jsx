@@ -7,7 +7,7 @@ import {
   faUserTie,
   faListCheck,
   faPaperPlane,
-  faGear,
+  faScrewdriverWrench,
 } from "@fortawesome/free-solid-svg-icons";
 
 const SideNav = () => {
@@ -41,7 +41,7 @@ const SideNav = () => {
             href="#skills"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <FontAwesomeIcon icon={faGear} />
+            <FontAwesomeIcon icon={faScrewdriverWrench} />
             <span className="pl-4">Skills</span>
           </a>
           <a
@@ -86,7 +86,7 @@ const SideNav = () => {
             href="#skills"
             className="flex flex-col justify-center items-center rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <FontAwesomeIcon icon={faGear} />
+            <FontAwesomeIcon icon={faScrewdriverWrench} />
             <span className="text-center text-xs">Skills</span>
           </a>
           <a
