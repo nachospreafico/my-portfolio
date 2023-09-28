@@ -6,6 +6,7 @@ import Order from "./../assets/Order-Summary-Component.png";
 import SignUp from "./../assets/Newsletter-Signup-Form.png";
 import Disney from "./../assets/Disney-Clone.png";
 import JSFormValidation from "./../assets/JS-Form-Validation.png";
+import LoginForm from "./../assets/Login-Form.png";
 
 export const projectDetails = [
   {
@@ -63,5 +64,12 @@ export const projectDetails = [
     image: JSFormValidation,
     url: "https://js-form-validation-neon.vercel.app/",
     tech: "JavaScript + CSS",
+  },
+  {
+    id: 8,
+    title: "Login Form",
+    image: LoginForm,
+    url: "https://login-form-three-xi.vercel.app/",
+    tech: "React + Vite + Tailwind CSS",
   },
 ];
