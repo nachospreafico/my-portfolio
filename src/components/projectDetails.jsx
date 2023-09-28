@@ -4,8 +4,17 @@ import Calculator from "./../assets/JS-Calculator.png";
 import Scorecard from "./../assets/Scorecard-Component.png";
 import Order from "./../assets/Order-Summary-Component.png";
 import SignUp from "./../assets/Newsletter-Signup-Form.png";
+import Disney from "./../assets/Disney-Clone.png";
+import JSFormValidation from "./../assets/JS-Form-Validation.png";
 
 export const projectDetails = [
+  {
+    id: 0,
+    title: "Disney+ Mock",
+    image: Disney,
+    url: "https://disney-clone-beryl.vercel.app/",
+    tech: "React + Vite + Tailwind CSS + The Movie Database API",
+  },
   {
     id: 1,
     title: "Sunnyside Landing Page",
@@ -46,6 +55,13 @@ export const projectDetails = [
     title: "Newsletter Sign Up Form",
     image: SignUp,
     url: "https://newsletter-sign-up-with-success-message-main-six.vercel.app/",
+    tech: "JavaScript + CSS",
+  },
+  {
+    id: 7,
+    title: "JS Form Validation w/Success Message",
+    image: JSFormValidation,
+    url: "https://js-form-validation-neon.vercel.app/",
     tech: "JavaScript + CSS",
   },
 ];

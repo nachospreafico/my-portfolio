@@ -13,7 +13,7 @@ const Projects = () => {
           return (
             <ProjectItem
               title={elem.title}
-              key={elem.id}
+              key={elem.id + 1}
               image={elem.image}
               url={elem.url}
               tech={elem.tech}
