@@ -8,6 +8,7 @@ import Disney from "./../assets/Disney-Clone.png";
 import JSFormValidation from "./../assets/JS-Form-Validation.png";
 import LoginForm from "./../assets/Login-Form.png";
 import BrunchApp from "./../assets/Brunch-App.png";
+import Loopstudios from "./../assets/Loopstudios-Landing.png";
 
 export const projectDetails = [
   {
@@ -19,62 +20,69 @@ export const projectDetails = [
   },
   {
     id: 1,
+    title: "Loopstudios Landing Page",
+    image: Loopstudios,
+    url: "https://loopstudio-landing-omega.vercel.app/",
+    tech: "React + Vite + Tailwind CSS",
+  },
+  {
+    id: 2,
     title: "Brunch Site Landing Page",
     image: BrunchApp,
     url: "https://brunch-app-gman.vercel.app/",
     tech: "React + Vite + Tailwind CSS",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sunnyside Landing Page",
     image: Sunnyside,
     url: "https://sunnyside-landing-page-eight.vercel.app/",
     tech: "React + Vite + Tailwind CSS",
   },
   {
-    id: 3,
+    id: 4,
     title: "Fylo Landing Page",
     image: Fylo,
     url: "https://fylo-dark-theme-landing-page-eta-three.vercel.app/",
     tech: "React + Vite + CSS",
   },
   {
-    id: 4,
+    id: 5,
     title: "JavaScript Calculator",
     image: Calculator,
     url: "https://calculator-app-eight-sooty.vercel.app/",
     tech: "JavaScript + CSS",
   },
   {
-    id: 5,
+    id: 6,
     title: "Scorecard Component",
     image: Scorecard,
     url: "https://results-summary-component-mu-nine.vercel.app/",
     tech: "React + Vite + Bootstrap",
   },
   {
-    id: 6,
+    id: 7,
     title: "Order Summary Component",
     image: Order,
     url: "https://order-summary-component-ashen-mu.vercel.app/",
     tech: "React + Vite + CSS",
   },
   {
-    id: 7,
+    id: 8,
     title: "Newsletter Sign Up Form",
     image: SignUp,
     url: "https://newsletter-sign-up-with-success-message-main-six.vercel.app/",
     tech: "JavaScript + CSS",
   },
   {
-    id: 8,
+    id: 9,
     title: "JS Form Validation w/Success Message",
     image: JSFormValidation,
     url: "https://js-form-validation-neon.vercel.app/",
     tech: "JavaScript + CSS",
   },
   {
-    id: 9,
+    id: 10,
     title: "Login Form",
     image: LoginForm,
     url: "https://login-form-three-xi.vercel.app/",
