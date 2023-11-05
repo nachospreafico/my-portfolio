@@ -9,6 +9,7 @@ import JSFormValidation from "./../assets/JS-Form-Validation.png";
 import LoginForm from "./../assets/Login-Form.png";
 import BrunchApp from "./../assets/Brunch-App.png";
 import Loopstudios from "./../assets/Loopstudios-Landing.png";
+import ExpensesChart from "./../assets/Expenses-Chart.png";
 
 export const projectDetails = [
   {
@@ -86,6 +87,13 @@ export const projectDetails = [
     title: "Login Form",
     image: LoginForm,
     url: "https://login-form-three-xi.vercel.app/",
+    tech: "React + Vite + Tailwind CSS",
+  },
+  {
+    id: 11,
+    title: "Expenses Chart Component",
+    image: ExpensesChart,
+    url: "https://expenses-chart-component-liard-ten.vercel.app/",
     tech: "React + Vite + Tailwind CSS",
   },
 ];
