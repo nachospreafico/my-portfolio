@@ -11,6 +11,7 @@ import BrunchApp from "./../assets/Brunch-App.png";
 import Loopstudios from "./../assets/Loopstudios-Landing.png";
 import ExpensesChart from "./../assets/Expenses-Chart.png";
 import NextJSDashboard from "./../assets/NextJS-Dashboard.png";
+import FourCards from "./../assets/Four-Card-Section.png";
 
 export const projectDetails = [
   {
@@ -102,6 +103,13 @@ export const projectDetails = [
     title: "Expenses Chart Component",
     image: ExpensesChart,
     url: "https://expenses-chart-component-liard-ten.vercel.app/",
+    tech: "React + Vite + Tailwind CSS",
+  },
+  {
+    id: 13,
+    title: "Four Card Section",
+    image: FourCards,
+    url: "https://four-card-section-pearl.vercel.app/",
     tech: "React + Vite + Tailwind CSS",
   },
 ];
