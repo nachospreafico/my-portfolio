@@ -9,11 +9,11 @@ const Projects = () => {
       </h1>
 
       <div className="grid sm:grid-cols-2 gap-12 justify-items-center">
-        {projectDetails.map((elem) => {
+        {projectDetails.map((elem, index) => {
           return (
             <ProjectItem
               title={elem.title}
-              key={elem.id + 1}
+              key={index}
               image={elem.image}
               url={elem.url}
               tech={elem.tech}

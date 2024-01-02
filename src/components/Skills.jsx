@@ -8,7 +8,6 @@ import Bootstrap from "./../assets/Bootstrap.svg";
 import GitHub from "./../assets/GitHub.png";
 import NextJS from "./../assets/NextJS.jpg";
 import NodeJS from "./../assets/node-js.svg";
-import Bun from "./../assets/BunJS.png";
 
 const Skills = () => {
   return (
@@ -53,10 +52,7 @@ const Skills = () => {
           <img src={NodeJS} alt="bootstrap logo"></img>
           <h2 className="text-[#292929] font-bold">NodeJS</h2>
         </div>
-        <div className="flex gap-4 flex-col items-center justify-center max-w-[100px] sm:max-w-[150px] hover:scale-110 duration-300">
-          <img src={Bun} alt="bootstrap logo"></img>
-          <h2 className="text-[#292929] font-bold">Bun</h2>
-        </div>
+
         <div className="flex gap-4 flex-col items-center justify-center max-w-[100px] sm:max-w-[150px] hover:scale-110 duration-300">
           <img src={GitHub} alt="github logo"></img>
           <h2 className="text-[#292929] font-bold">GitHub</h2>
